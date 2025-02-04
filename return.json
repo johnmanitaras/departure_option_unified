@@ -1,0 +1,32 @@
+{
+      "returnServices": [
+        {
+          "service_id": 3,
+          "can_accept": "yes",
+          "resource_name": "Train C",
+          "route_name": "Manchester to London",
+          "departing_from": "Manchester Piccadilly",
+          "travelling_to": "London Euston",
+          "departure_time": "14:00",
+          "arrival_time": "16:30",
+          "departure_date": "2024-07-22",
+          "total_cost": 55,
+          "pats": [],
+          "flags": []
+        },
+        {
+          "service_id": 4,
+          "can_accept": "yes",
+          "resource_name": "Train D",
+          "route_name": "Manchester to London",
+          "departing_from": "Manchester Piccadilly",
+          "travelling_to": "London Euston",
+          "departure_time": "17:00",
+          "arrival_time": "19:30",
+          "departure_date": "2024-07-22",
+          "total_cost": 65,
+          "pats": [],
+          "flags": []
+        }
+      ]
+    }

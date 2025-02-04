@@ -1,0 +1,46 @@
+{
+  "outboundServices": [
+    {
+      "service_id": 55,
+      "can_accept": "yes",
+      "resource_name": "KIFS",
+      "route_name": "Mainland to Island",
+      "departing_from": "Cape Jervis",
+      "travelling_to": "PenneshawX",
+      "departure_time": "10:00:00",
+      "arrival_time": "10:25:00",
+      "departure_date": "2026-05-02",
+      "total_cost": 678.5,
+      "pats": [],
+      "flags": []
+    },
+    {
+      "service_id": 54,
+      "can_accept": "yes",
+      "resource_name": "KIFS",
+      "route_name": "Mainland to Island",
+      "departing_from": "Cape Jervis",
+      "travelling_to": "PenneshawX",
+      "departure_time": "09:00:00",
+      "arrival_time": "09:25:00",
+      "departure_date": "2026-05-02",
+      "total_cost": 780.28,
+      "pats": [],
+      "flags": []
+    },
+    {
+      "service_id": 56,
+      "can_accept": "yes",
+      "resource_name": "KIFS",
+      "route_name": "Mainland to Island",
+      "departing_from": "Cape Jervis",
+      "travelling_to": "PenneshawX",
+      "departure_time": "11:00:00",
+      "arrival_time": "11:25:00",
+      "departure_date": "2026-05-02",
+      "total_cost": 590,
+      "pats": [],
+      "flags": []
+    }
+  ]
+}

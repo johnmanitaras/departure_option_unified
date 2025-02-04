@@ -1,0 +1,1484 @@
+{
+  "status": "ok",
+  "data": [
+    {
+      "service_id": 55,
+      "flags": [],
+      "options": {
+        "parent_product": null,
+        "variations": [
+          {
+            "id": 36,
+            "cancellation_policy_id": 3,
+            "sort_key": 1,
+            "default_variation": false,
+            "variation_name": "Basic",
+            "variation_description": "Our best value deal",
+            "cancellation_policy_name": "Non-Refundable",
+            "cancellation_policy_description": "No refund available after the booking is confirmed",
+            "icon": "XCircle",
+            "icon_color": "red-500",
+            "behaviour_id": 24,
+            "total_price": 678.54,
+            "price_before_addons": 678.5,
+            "can_accept": true,
+            "passengers": [
+              {
+                "pax_id": "ae03965b-e3b0-4769-8ab5-886082fd72cb-Adult-1",
+                "pat_type_name": "Passenger",
+                "pat_sub_type_name": "Adult",
+                "pat_sub_type_plural": "Adults",
+                "count": 1,
+                "price": 115.0,
+                "descriptor": "1 x Adult",
+                "price_breakdown": ["115.0"]
+              },
+              {
+                "pax_id": "ae03965b-e3b0-4769-8ab5-886082fd72cb-Adult-2",
+                "pat_type_name": "Passenger",
+                "pat_sub_type_name": "Adult",
+                "pat_sub_type_plural": "Adults",
+                "count": 1,
+                "price": 115.0,
+                "descriptor": "1 x Adult",
+                "price_breakdown": ["115.0"]
+              },
+              {
+                "pax_id": "97ccbb90-ac87-4d26-8272-b342ebfe2ac7-Child-1",
+                "pat_type_name": "Passenger",
+                "pat_sub_type_name": "Child",
+                "pat_sub_type_plural": "Children",
+                "count": 1,
+                "price": 92.0,
+                "descriptor": "1 x Child",
+                "price_breakdown": ["92.0"]
+              },
+              {
+                "pax_id": "7bd6cedb-b4da-4f10-9f8e-2ab22890b0a2-Car-1",
+                "pat_type_name": "Vehicle",
+                "pat_sub_type_name": "Car",
+                "pat_sub_type_plural": "Cars",
+                "count": 1,
+                "price": 356.5,
+                "descriptor": "1 x Car",
+                "price_breakdown": ["356.5"]
+              }
+            ],
+            "addons": [
+              {
+                "id": 16,
+                "name": "Window Seat",
+                "icon": "square",
+                "price": 0,
+                "associated": false,
+                "included_flag": null,
+                "requirement": null,
+                "allow_expand": false,
+                "allow_change": true,
+                "visible": true,
+                "passengers": [
+                  {
+                    "pax_id": "ae03965b-e3b0-4769-8ab5-886082fd72cb-Adult-1",
+                    "type": "Adult",
+                    "selected": false,
+                    "allow_change": true,
+                    "price": 4.0,
+                    "hover_note": null
+                  },
+                  {
+                    "pax_id": "ae03965b-e3b0-4769-8ab5-886082fd72cb-Adult-2",
+                    "type": "Adult",
+                    "selected": false,
+                    "allow_change": true,
+                    "price": 4.0,
+                    "hover_note": null
+                  },
+                  {
+                    "pax_id": "97ccbb90-ac87-4d26-8272-b342ebfe2ac7-Child-1",
+                    "type": "Child",
+                    "selected": false,
+                    "allow_change": true,
+                    "price": 4.0,
+                    "hover_note": null
+                  }
+                ]
+              },
+              {
+                "id": 17,
+                "name": "Priority Disembark",
+                "icon": "square",
+                "price": 0,
+                "associated": false,
+                "included_flag": null,
+                "requirement": null,
+                "allow_expand": true,
+                "allow_change": true,
+                "visible": true,
+                "passengers": [
+                  {
+                    "pax_id": "7bd6cedb-b4da-4f10-9f8e-2ab22890b0a2-Car-1",
+                    "type": "Car",
+                    "selected": false,
+                    "allow_change": true,
+                    "price": 19.0,
+                    "hover_note": null
+                  }
+                ]
+              },
+              {
+                "id": 18,
+                "name": "RIA Admission",
+                "icon": null,
+                "price": 0,
+                "associated": false,
+                "included_flag": null,
+                "requirement": null,
+                "allow_expand": true,
+                "allow_change": true,
+                "visible": true,
+                "passengers": [
+                  {
+                    "pax_id": "ae03965b-e3b0-4769-8ab5-886082fd72cb-Adult-1",
+                    "type": "Adult",
+                    "selected": false,
+                    "allow_change": true,
+                    "price": 7.0,
+                    "hover_note": null
+                  },
+                  {
+                    "pax_id": "ae03965b-e3b0-4769-8ab5-886082fd72cb-Adult-2",
+                    "type": "Adult",
+                    "selected": false,
+                    "allow_change": true,
+                    "price": 7.0,
+                    "hover_note": null
+                  },
+                  {
+                    "pax_id": "97ccbb90-ac87-4d26-8272-b342ebfe2ac7-Child-1",
+                    "type": "Child",
+                    "selected": false,
+                    "allow_change": true,
+                    "price": 5.6,
+                    "hover_note": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 37,
+            "cancellation_policy_id": 2,
+            "sort_key": 2,
+            "default_variation": false,
+            "variation_name": "Standard",
+            "variation_description": "Great value",
+            "cancellation_policy_name": "Partial Refund",
+            "cancellation_policy_description": "50% refund available up to 48 hours before departure",
+            "icon": "CheckCircle",
+            "icon_color": "red-500",
+            "behaviour_id": 28,
+            "total_price": 1357.05,
+            "price_before_addons": 1357.0,
+            "can_accept": true,
+            "passengers": [
+              {
+                "pax_id": "ae03965b-e3b0-4769-8ab5-886082fd72cb-Adult-1",
+                "pat_type_name": "Passenger",
+                "pat_sub_type_name": "Adult",
+                "pat_sub_type_plural": "Adults",
+                "count": 1,
+                "price": 230.0,
+                "descriptor": "1 x Adult",
+                "price_breakdown": ["230.0"]
+              },
+              {
+                "pax_id": "ae03965b-e3b0-4769-8ab5-886082fd72cb-Adult-2",
+                "pat_type_name": "Passenger",
+                "pat_sub_type_name": "Adult",
+                "pat_sub_type_plural": "Adults",
+                "count": 1,
+                "price": 230.0,
+                "descriptor": "1 x Adult",
+                "price_breakdown": ["230.0"]
+              },
+              {
+                "pax_id": "97ccbb90-ac87-4d26-8272-b342ebfe2ac7-Child-1",
+                "pat_type_name": "Passenger",
+                "pat_sub_type_name": "Child",
+                "pat_sub_type_plural": "Children",
+                "count": 1,
+                "price": 184.0,
+                "descriptor": "1 x Child",
+                "price_breakdown": ["184.0"]
+              },
+              {
+                "pax_id": "7bd6cedb-b4da-4f10-9f8e-2ab22890b0a2-Car-1",
+                "pat_type_name": "Vehicle",
+                "pat_sub_type_name": "Car",
+                "pat_sub_type_plural": "Cars",
+                "count": 1,
+                "price": 713.0,
+                "descriptor": "1 x Car",
+                "price_breakdown": ["713.0"]
+              }
+            ],
+            "addons": [
+              {
+                "id": 16,
+                "name": "Window Seat",
+                "icon": "square",
+                "price": 0,
+                "associated": false,
+                "included_flag": null,
+                "requirement": null,
+                "allow_expand": false,
+                "allow_change": true,
+                "visible": true,
+                "passengers": [
+                  {
+                    "pax_id": "ae03965b-e3b0-4769-8ab5-886082fd72cb-Adult-1",
+                    "type": "Adult",
+                    "selected": false,
+                    "allow_change": true,
+                    "price": 4.0,
+                    "hover_note": null
+                  },
+                  {
+                    "pax_id": "ae03965b-e3b0-4769-8ab5-886082fd72cb-Adult-2",
+                    "type": "Adult",
+                    "selected": false,
+                    "allow_change": true,
+                    "price": 4.0,
+                    "hover_note": null
+                  },
+                  {
+                    "pax_id": "97ccbb90-ac87-4d26-8272-b342ebfe2ac7-Child-1",
+                    "type": "Child",
+                    "selected": false,
+                    "allow_change": true,
+                    "price": 4.0,
+                    "hover_note": null
+                  }
+                ]
+              },
+              {
+                "id": 17,
+                "name": "Priority Disembark",
+                "icon": "square",
+                "price": 0,
+                "associated": false,
+                "included_flag": null,
+                "requirement": null,
+                "allow_expand": true,
+                "allow_change": true,
+                "visible": true,
+                "passengers": [
+                  {
+                    "pax_id": "7bd6cedb-b4da-4f10-9f8e-2ab22890b0a2-Car-1",
+                    "type": "Car",
+                    "selected": false,
+                    "allow_change": true,
+                    "price": 19.0,
+                    "hover_note": null
+                  }
+                ]
+              },
+              {
+                "id": 18,
+                "name": "RIA Admission",
+                "icon": null,
+                "price": 0,
+                "associated": false,
+                "included_flag": null,
+                "requirement": null,
+                "allow_expand": true,
+                "allow_change": true,
+                "visible": true,
+                "passengers": [
+                  {
+                    "pax_id": "ae03965b-e3b0-4769-8ab5-886082fd72cb-Adult-1",
+                    "type": "Adult",
+                    "selected": false,
+                    "allow_change": true,
+                    "price": 7.0,
+                    "hover_note": null
+                  },
+                  {
+                    "pax_id": "ae03965b-e3b0-4769-8ab5-886082fd72cb-Adult-2",
+                    "type": "Adult",
+                    "selected": false,
+                    "allow_change": true,
+                    "price": 7.0,
+                    "hover_note": null
+                  },
+                  {
+                    "pax_id": "97ccbb90-ac87-4d26-8272-b342ebfe2ac7-Child-1",
+                    "type": "Child",
+                    "selected": false,
+                    "allow_change": true,
+                    "price": 5.6,
+                    "hover_note": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 38,
+            "cancellation_policy_id": 1,
+            "sort_key": 3,
+            "default_variation": false,
+            "variation_name": "Premium",
+            "variation_description": "Fully Flexible",
+            "cancellation_policy_name": "Full Refund",
+            "cancellation_policy_description": "Full refund available up to 24 hours before departure",
+            "icon": "RefreshCw",
+            "icon_color": "red-500",
+            "behaviour_id": 28,
+            "total_price": 2035.5,
+            "price_before_addons": 2035.56,
+            "can_accept": true,
+            "passengers": [
+              {
+                "pax_id": "ae03965b-e3b0-4769-8ab5-886082fd72cb-Adult-1",
+                "pat_type_name": "Passenger",
+                "pat_sub_type_name": "Adult",
+                "pat_sub_type_plural": "Adults",
+                "count": 1,
+                "price": 345.0,
+                "descriptor": "1 x Adult",
+                "price_breakdown": ["345.0"]
+              },
+              {
+                "pax_id": "ae03965b-e3b0-4769-8ab5-886082fd72cb-Adult-2",
+                "pat_type_name": "Passenger",
+                "pat_sub_type_name": "Adult",
+                "pat_sub_type_plural": "Adults",
+                "count": 1,
+                "price": 345.0,
+                "descriptor": "1 x Adult",
+                "price_breakdown": ["345.0"]
+              },
+              {
+                "pax_id": "97ccbb90-ac87-4d26-8272-b342ebfe2ac7-Child-1",
+                "pat_type_name": "Passenger",
+                "pat_sub_type_name": "Child",
+                "pat_sub_type_plural": "Children",
+                "count": 1,
+                "price": 276.0,
+                "descriptor": "1 x Child",
+                "price_breakdown": ["276.0"]
+              },
+              {
+                "pax_id": "7bd6cedb-b4da-4f10-9f8e-2ab22890b0a2-Car-1",
+                "pat_type_name": "Vehicle",
+                "pat_sub_type_name": "Car",
+                "pat_sub_type_plural": "Cars",
+                "count": 1,
+                "price": 1069.5,
+                "descriptor": "1 x Car",
+                "price_breakdown": ["1069.5"]
+              }
+            ],
+            "addons": [
+              {
+                "id": 16,
+                "name": "Window Seat",
+                "icon": "square",
+                "price": 0,
+                "associated": true,
+                "included_flag": true,
+                "requirement": "standard",
+                "allow_expand": false,
+                "allow_change": true,
+                "visible": true,
+                "passengers": [
+                  {
+                    "pax_id": "ae03965b-e3b0-4769-8ab5-886082fd72cb-Adult-1",
+                    "type": "Adult",
+                    "selected": true,
+                    "allow_change": true,
+                    "price": 0,
+                    "hover_note": null
+                  },
+                  {
+                    "pax_id": "ae03965b-e3b0-4769-8ab5-886082fd72cb-Adult-2",
+                    "type": "Adult",
+                    "selected": true,
+                    "allow_change": true,
+                    "price": 0,
+                    "hover_note": null
+                  },
+                  {
+                    "pax_id": "97ccbb90-ac87-4d26-8272-b342ebfe2ac7-Child-1",
+                    "type": "Child",
+                    "selected": true,
+                    "allow_change": true,
+                    "price": 0,
+                    "hover_note": null
+                  }
+                ]
+              },
+              {
+                "id": 17,
+                "name": "Priority Disembark",
+                "icon": "square",
+                "price": 0,
+                "associated": false,
+                "included_flag": null,
+                "requirement": null,
+                "allow_expand": true,
+                "allow_change": true,
+                "visible": true,
+                "passengers": [
+                  {
+                    "pax_id": "7bd6cedb-b4da-4f10-9f8e-2ab22890b0a2-Car-1",
+                    "type": "Car",
+                    "selected": false,
+                    "allow_change": true,
+                    "price": 19.0,
+                    "hover_note": null
+                  }
+                ]
+              },
+              {
+                "id": 18,
+                "name": "RIA Admission",
+                "icon": null,
+                "price": 0,
+                "associated": false,
+                "included_flag": null,
+                "requirement": null,
+                "allow_expand": true,
+                "allow_change": true,
+                "visible": true,
+                "passengers": [
+                  {
+                    "pax_id": "ae03965b-e3b0-4769-8ab5-886082fd72cb-Adult-1",
+                    "type": "Adult",
+                    "selected": false,
+                    "allow_change": true,
+                    "price": 7.0,
+                    "hover_note": null
+                  },
+                  {
+                    "pax_id": "ae03965b-e3b0-4769-8ab5-886082fd72cb-Adult-2",
+                    "type": "Adult",
+                    "selected": false,
+                    "allow_change": true,
+                    "price": 7.0,
+                    "hover_note": null
+                  },
+                  {
+                    "pax_id": "97ccbb90-ac87-4d26-8272-b342ebfe2ac7-Child-1",
+                    "type": "Child",
+                    "selected": false,
+                    "allow_change": true,
+                    "price": 5.6,
+                    "hover_note": null
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "total_cost": 678.5,
+      "lowest_option": 36,
+      "can_accept": true,
+      "resource_name": "KIFS",
+      "route_name": "Mainland to Island",
+      "departing_from": "Cape Jervis",
+      "travelling_to": "PenneshawX",
+      "departure_time": "10:01:00",
+      "arrival_time": "10:25:00",
+      "departure_date": "2026-05-02"
+    },
+    {
+      "service_id": 54,
+      "flags": [],
+      "options": {
+        "parent_product": null,
+        "variations": [
+          {
+            "id": 36,
+            "cancellation_policy_id": 3,
+            "sort_key": 1,
+            "default_variation": false,
+            "variation_name": "Basic",
+            "variation_description": "Our best value deal",
+            "cancellation_policy_name": "Non-Refundable",
+            "cancellation_policy_description": "No refund available after the booking is confirmed",
+            "icon": "XCircle",
+            "icon_color": "red-500",
+            "behaviour_id": 24,
+            "total_price": 780.28,
+            "price_before_addons": 780.28,
+            "can_accept": true,
+            "passengers": [
+              {
+                "pax_id": "ae03965b-e3b0-4769-8ab5-886082fd72cb-Adult-1",
+                "pat_type_name": "Passenger",
+                "pat_sub_type_name": "Adult",
+                "pat_sub_type_plural": "Adults",
+                "count": 1,
+                "price": 132.25,
+                "descriptor": "1 x Adult",
+                "price_breakdown": ["132.25"]
+              },
+              {
+                "pax_id": "ae03965b-e3b0-4769-8ab5-886082fd72cb-Adult-2",
+                "pat_type_name": "Passenger",
+                "pat_sub_type_name": "Adult",
+                "pat_sub_type_plural": "Adults",
+                "count": 1,
+                "price": 132.25,
+                "descriptor": "1 x Adult",
+                "price_breakdown": ["132.25"]
+              },
+              {
+                "pax_id": "97ccbb90-ac87-4d26-8272-b342ebfe2ac7-Child-1",
+                "pat_type_name": "Passenger",
+                "pat_sub_type_name": "Child",
+                "pat_sub_type_plural": "Children",
+                "count": 1,
+                "price": 105.8,
+                "descriptor": "1 x Child",
+                "price_breakdown": ["105.8"]
+              },
+              {
+                "pax_id": "7bd6cedb-b4da-4f10-9f8e-2ab22890b0a2-Car-1",
+                "pat_type_name": "Vehicle",
+                "pat_sub_type_name": "Car",
+                "pat_sub_type_plural": "Cars",
+                "count": 1,
+                "price": 409.98,
+                "descriptor": "1 x Car",
+                "price_breakdown": ["409.98"]
+              }
+            ],
+            "addons": [
+              {
+                "id": 16,
+                "name": "Window Seat",
+                "icon": "square",
+                "price": 0,
+                "associated": false,
+                "included_flag": null,
+                "requirement": null,
+                "allow_expand": false,
+                "allow_change": true,
+                "visible": true,
+                "passengers": [
+                  {
+                    "pax_id": "ae03965b-e3b0-4769-8ab5-886082fd72cb-Adult-1",
+                    "type": "Adult",
+                    "selected": false,
+                    "allow_change": true,
+                    "price": 4.0,
+                    "hover_note": null
+                  },
+                  {
+                    "pax_id": "ae03965b-e3b0-4769-8ab5-886082fd72cb-Adult-2",
+                    "type": "Adult",
+                    "selected": false,
+                    "allow_change": true,
+                    "price": 4.0,
+                    "hover_note": null
+                  },
+                  {
+                    "pax_id": "97ccbb90-ac87-4d26-8272-b342ebfe2ac7-Child-1",
+                    "type": "Child",
+                    "selected": false,
+                    "allow_change": true,
+                    "price": 4.0,
+                    "hover_note": null
+                  }
+                ]
+              },
+              {
+                "id": 17,
+                "name": "Priority Disembark",
+                "icon": "square",
+                "price": 0,
+                "associated": false,
+                "included_flag": null,
+                "requirement": null,
+                "allow_expand": true,
+                "allow_change": true,
+                "visible": true,
+                "passengers": [
+                  {
+                    "pax_id": "7bd6cedb-b4da-4f10-9f8e-2ab22890b0a2-Car-1",
+                    "type": "Car",
+                    "selected": false,
+                    "allow_change": true,
+                    "price": 19.0,
+                    "hover_note": null
+                  }
+                ]
+              },
+              {
+                "id": 18,
+                "name": "RIA Admission",
+                "icon": null,
+                "price": 0,
+                "associated": false,
+                "included_flag": null,
+                "requirement": null,
+                "allow_expand": true,
+                "allow_change": true,
+                "visible": true,
+                "passengers": [
+                  {
+                    "pax_id": "ae03965b-e3b0-4769-8ab5-886082fd72cb-Adult-1",
+                    "type": "Adult",
+                    "selected": false,
+                    "allow_change": true,
+                    "price": 7.0,
+                    "hover_note": null
+                  },
+                  {
+                    "pax_id": "ae03965b-e3b0-4769-8ab5-886082fd72cb-Adult-2",
+                    "type": "Adult",
+                    "selected": false,
+                    "allow_change": true,
+                    "price": 7.0,
+                    "hover_note": null
+                  },
+                  {
+                    "pax_id": "97ccbb90-ac87-4d26-8272-b342ebfe2ac7-Child-1",
+                    "type": "Child",
+                    "selected": false,
+                    "allow_change": true,
+                    "price": 5.6,
+                    "hover_note": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 37,
+            "cancellation_policy_id": 2,
+            "sort_key": 2,
+            "default_variation": false,
+            "variation_name": "Standard",
+            "variation_description": "Great value",
+            "cancellation_policy_name": "Partial Refund",
+            "cancellation_policy_description": "50% refund available up to 48 hours before departure",
+            "icon": "CheckCircle",
+            "icon_color": "red-500",
+            "behaviour_id": 28,
+            "total_price": 1560.55,
+            "price_before_addons": 1560.55,
+            "can_accept": true,
+            "passengers": [
+              {
+                "pax_id": "ae03965b-e3b0-4769-8ab5-886082fd72cb-Adult-1",
+                "pat_type_name": "Passenger",
+                "pat_sub_type_name": "Adult",
+                "pat_sub_type_plural": "Adults",
+                "count": 1,
+                "price": 264.5,
+                "descriptor": "1 x Adult",
+                "price_breakdown": ["264.5"]
+              },
+              {
+                "pax_id": "ae03965b-e3b0-4769-8ab5-886082fd72cb-Adult-2",
+                "pat_type_name": "Passenger",
+                "pat_sub_type_name": "Adult",
+                "pat_sub_type_plural": "Adults",
+                "count": 1,
+                "price": 264.5,
+                "descriptor": "1 x Adult",
+                "price_breakdown": ["264.5"]
+              },
+              {
+                "pax_id": "97ccbb90-ac87-4d26-8272-b342ebfe2ac7-Child-1",
+                "pat_type_name": "Passenger",
+                "pat_sub_type_name": "Child",
+                "pat_sub_type_plural": "Children",
+                "count": 1,
+                "price": 211.6,
+                "descriptor": "1 x Child",
+                "price_breakdown": ["211.6"]
+              },
+              {
+                "pax_id": "7bd6cedb-b4da-4f10-9f8e-2ab22890b0a2-Car-1",
+                "pat_type_name": "Vehicle",
+                "pat_sub_type_name": "Car",
+                "pat_sub_type_plural": "Cars",
+                "count": 1,
+                "price": 819.95,
+                "descriptor": "1 x Car",
+                "price_breakdown": ["819.95"]
+              }
+            ],
+            "addons": [
+              {
+                "id": 16,
+                "name": "Window Seat",
+                "icon": "square",
+                "price": 0,
+                "associated": false,
+                "included_flag": null,
+                "requirement": null,
+                "allow_expand": false,
+                "allow_change": true,
+                "visible": true,
+                "passengers": [
+                  {
+                    "pax_id": "ae03965b-e3b0-4769-8ab5-886082fd72cb-Adult-1",
+                    "type": "Adult",
+                    "selected": false,
+                    "allow_change": true,
+                    "price": 4.0,
+                    "hover_note": null
+                  },
+                  {
+                    "pax_id": "ae03965b-e3b0-4769-8ab5-886082fd72cb-Adult-2",
+                    "type": "Adult",
+                    "selected": false,
+                    "allow_change": true,
+                    "price": 4.0,
+                    "hover_note": null
+                  },
+                  {
+                    "pax_id": "97ccbb90-ac87-4d26-8272-b342ebfe2ac7-Child-1",
+                    "type": "Child",
+                    "selected": false,
+                    "allow_change": true,
+                    "price": 4.0,
+                    "hover_note": null
+                  }
+                ]
+              },
+              {
+                "id": 17,
+                "name": "Priority Disembark",
+                "icon": "square",
+                "price": 0,
+                "associated": false,
+                "included_flag": null,
+                "requirement": null,
+                "allow_expand": true,
+                "allow_change": true,
+                "visible": true,
+                "passengers": [
+                  {
+                    "pax_id": "7bd6cedb-b4da-4f10-9f8e-2ab22890b0a2-Car-1",
+                    "type": "Car",
+                    "selected": false,
+                    "allow_change": true,
+                    "price": 19.0,
+                    "hover_note": null
+                  }
+                ]
+              },
+              {
+                "id": 18,
+                "name": "RIA Admission",
+                "icon": null,
+                "price": 0,
+                "associated": false,
+                "included_flag": null,
+                "requirement": null,
+                "allow_expand": true,
+                "allow_change": true,
+                "visible": true,
+                "passengers": [
+                  {
+                    "pax_id": "ae03965b-e3b0-4769-8ab5-886082fd72cb-Adult-1",
+                    "type": "Adult",
+                    "selected": false,
+                    "allow_change": true,
+                    "price": 7.0,
+                    "hover_note": null
+                  },
+                  {
+                    "pax_id": "ae03965b-e3b0-4769-8ab5-886082fd72cb-Adult-2",
+                    "type": "Adult",
+                    "selected": false,
+                    "allow_change": true,
+                    "price": 7.0,
+                    "hover_note": null
+                  },
+                  {
+                    "pax_id": "97ccbb90-ac87-4d26-8272-b342ebfe2ac7-Child-1",
+                    "type": "Child",
+                    "selected": false,
+                    "allow_change": true,
+                    "price": 5.6,
+                    "hover_note": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 38,
+            "cancellation_policy_id": 1,
+            "sort_key": 3,
+            "default_variation": false,
+            "variation_name": "Premium",
+            "variation_description": "Fully Flexible",
+            "cancellation_policy_name": "Full Refund",
+            "cancellation_policy_description": "Full refund available up to 24 hours before departure",
+            "icon": "RefreshCw",
+            "icon_color": "red-500",
+            "behaviour_id": 28,
+            "total_price": 2340.83,
+            "price_before_addons": 2340.83,
+            "can_accept": true,
+            "passengers": [
+              {
+                "pax_id": "ae03965b-e3b0-4769-8ab5-886082fd72cb-Adult-1",
+                "pat_type_name": "Passenger",
+                "pat_sub_type_name": "Adult",
+                "pat_sub_type_plural": "Adults",
+                "count": 1,
+                "price": 396.75,
+                "descriptor": "1 x Adult",
+                "price_breakdown": ["396.75"]
+              },
+              {
+                "pax_id": "ae03965b-e3b0-4769-8ab5-886082fd72cb-Adult-2",
+                "pat_type_name": "Passenger",
+                "pat_sub_type_name": "Adult",
+                "pat_sub_type_plural": "Adults",
+                "count": 1,
+                "price": 396.75,
+                "descriptor": "1 x Adult",
+                "price_breakdown": ["396.75"]
+              },
+              {
+                "pax_id": "97ccbb90-ac87-4d26-8272-b342ebfe2ac7-Child-1",
+                "pat_type_name": "Passenger",
+                "pat_sub_type_name": "Child",
+                "pat_sub_type_plural": "Children",
+                "count": 1,
+                "price": 317.4,
+                "descriptor": "1 x Child",
+                "price_breakdown": ["317.4"]
+              },
+              {
+                "pax_id": "7bd6cedb-b4da-4f10-9f8e-2ab22890b0a2-Car-1",
+                "pat_type_name": "Vehicle",
+                "pat_sub_type_name": "Car",
+                "pat_sub_type_plural": "Cars",
+                "count": 1,
+                "price": 1229.93,
+                "descriptor": "1 x Car",
+                "price_breakdown": ["1229.93"]
+              }
+            ],
+            "addons": [
+              {
+                "id": 16,
+                "name": "Window Seat",
+                "icon": "square",
+                "price": 0,
+                "associated": true,
+                "included_flag": true,
+                "requirement": "standard",
+                "allow_expand": false,
+                "allow_change": true,
+                "visible": true,
+                "passengers": [
+                  {
+                    "pax_id": "ae03965b-e3b0-4769-8ab5-886082fd72cb-Adult-1",
+                    "type": "Adult",
+                    "selected": true,
+                    "allow_change": true,
+                    "price": 0,
+                    "hover_note": null
+                  },
+                  {
+                    "pax_id": "ae03965b-e3b0-4769-8ab5-886082fd72cb-Adult-2",
+                    "type": "Adult",
+                    "selected": true,
+                    "allow_change": true,
+                    "price": 0,
+                    "hover_note": null
+                  },
+                  {
+                    "pax_id": "97ccbb90-ac87-4d26-8272-b342ebfe2ac7-Child-1",
+                    "type": "Child",
+                    "selected": true,
+                    "allow_change": true,
+                    "price": 0,
+                    "hover_note": null
+                  }
+                ]
+              },
+              {
+                "id": 17,
+                "name": "Priority Disembark",
+                "icon": "square",
+                "price": 0,
+                "associated": false,
+                "included_flag": null,
+                "requirement": null,
+                "allow_expand": true,
+                "allow_change": true,
+                "visible": true,
+                "passengers": [
+                  {
+                    "pax_id": "7bd6cedb-b4da-4f10-9f8e-2ab22890b0a2-Car-1",
+                    "type": "Car",
+                    "selected": false,
+                    "allow_change": true,
+                    "price": 19.0,
+                    "hover_note": null
+                  }
+                ]
+              },
+              {
+                "id": 18,
+                "name": "RIA Admission",
+                "icon": null,
+                "price": 0,
+                "associated": false,
+                "included_flag": null,
+                "requirement": null,
+                "allow_expand": true,
+                "allow_change": true,
+                "visible": true,
+                "passengers": [
+                  {
+                    "pax_id": "ae03965b-e3b0-4769-8ab5-886082fd72cb-Adult-1",
+                    "type": "Adult",
+                    "selected": false,
+                    "allow_change": true,
+                    "price": 7.0,
+                    "hover_note": null
+                  },
+                  {
+                    "pax_id": "ae03965b-e3b0-4769-8ab5-886082fd72cb-Adult-2",
+                    "type": "Adult",
+                    "selected": false,
+                    "allow_change": true,
+                    "price": 7.0,
+                    "hover_note": null
+                  },
+                  {
+                    "pax_id": "97ccbb90-ac87-4d26-8272-b342ebfe2ac7-Child-1",
+                    "type": "Child",
+                    "selected": false,
+                    "allow_change": true,
+                    "price": 5.6,
+                    "hover_note": null
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "total_cost": 780.28,
+      "lowest_option": 36,
+      "can_accept": true,
+      "resource_name": "KIFS",
+      "route_name": "Mainland to Island",
+      "departing_from": "Cape Jervis",
+      "travelling_to": "PenneshawX",
+      "departure_time": "09:01:00",
+      "arrival_time": "09:26:00",
+      "departure_date": "2026-05-02"
+    },
+    {
+      "service_id": 56,
+      "flags": [],
+      "options": {
+        "parent_product": null,
+        "variations": [
+          {
+            "id": 36,
+            "cancellation_policy_id": 3,
+            "sort_key": 1,
+            "default_variation": false,
+            "variation_name": "Basic",
+            "variation_description": "Our best value deal",
+            "cancellation_policy_name": "Non-Refundable",
+            "cancellation_policy_description": "No refund available after the booking is confirmed",
+            "icon": "XCircle",
+            "icon_color": "red-500",
+            "behaviour_id": 24,
+            "total_price": 590.0,
+            "price_before_addons": 590.0,
+            "can_accept": true,
+            "passengers": [
+              {
+                "pax_id": "ae03965b-e3b0-4769-8ab5-886082fd72cb-Adult-1",
+                "pat_type_name": "Passenger",
+                "pat_sub_type_name": "Adult",
+                "pat_sub_type_plural": "Adults",
+                "count": 1,
+                "price": 100.0,
+                "descriptor": "1 x Adult",
+                "price_breakdown": ["100.0"]
+              },
+              {
+                "pax_id": "ae03965b-e3b0-4769-8ab5-886082fd72cb-Adult-2",
+                "pat_type_name": "Passenger",
+                "pat_sub_type_name": "Adult",
+                "pat_sub_type_plural": "Adults",
+                "count": 1,
+                "price": 100.0,
+                "descriptor": "1 x Adult",
+                "price_breakdown": ["100.0"]
+              },
+              {
+                "pax_id": "97ccbb90-ac87-4d26-8272-b342ebfe2ac7-Child-1",
+                "pat_type_name": "Passenger",
+                "pat_sub_type_name": "Child",
+                "pat_sub_type_plural": "Children",
+                "count": 1,
+                "price": 80.0,
+                "descriptor": "1 x Child",
+                "price_breakdown": ["80.0"]
+              },
+              {
+                "pax_id": "7bd6cedb-b4da-4f10-9f8e-2ab22890b0a2-Car-1",
+                "pat_type_name": "Vehicle",
+                "pat_sub_type_name": "Car",
+                "pat_sub_type_plural": "Cars",
+                "count": 1,
+                "price": 310.0,
+                "descriptor": "1 x Car",
+                "price_breakdown": ["310.0"]
+              }
+            ],
+            "addons": [
+              {
+                "id": 16,
+                "name": "Window Seat",
+                "icon": "square",
+                "price": 0,
+                "associated": false,
+                "included_flag": null,
+                "requirement": null,
+                "allow_expand": false,
+                "allow_change": true,
+                "visible": true,
+                "passengers": [
+                  {
+                    "pax_id": "ae03965b-e3b0-4769-8ab5-886082fd72cb-Adult-1",
+                    "type": "Adult",
+                    "selected": false,
+                    "allow_change": true,
+                    "price": 4.0,
+                    "hover_note": null
+                  },
+                  {
+                    "pax_id": "ae03965b-e3b0-4769-8ab5-886082fd72cb-Adult-2",
+                    "type": "Adult",
+                    "selected": false,
+                    "allow_change": true,
+                    "price": 4.0,
+                    "hover_note": null
+                  },
+                  {
+                    "pax_id": "97ccbb90-ac87-4d26-8272-b342ebfe2ac7-Child-1",
+                    "type": "Child",
+                    "selected": false,
+                    "allow_change": true,
+                    "price": 4.0,
+                    "hover_note": null
+                  }
+                ]
+              },
+              {
+                "id": 17,
+                "name": "Priority Disembark",
+                "icon": "square",
+                "price": 0,
+                "associated": false,
+                "included_flag": null,
+                "requirement": null,
+                "allow_expand": true,
+                "allow_change": true,
+                "visible": true,
+                "passengers": [
+                  {
+                    "pax_id": "7bd6cedb-b4da-4f10-9f8e-2ab22890b0a2-Car-1",
+                    "type": "Car",
+                    "selected": false,
+                    "allow_change": true,
+                    "price": 19.0,
+                    "hover_note": null
+                  }
+                ]
+              },
+              {
+                "id": 18,
+                "name": "RIA Admission",
+                "icon": null,
+                "price": 0,
+                "associated": false,
+                "included_flag": null,
+                "requirement": null,
+                "allow_expand": true,
+                "allow_change": true,
+                "visible": true,
+                "passengers": [
+                  {
+                    "pax_id": "ae03965b-e3b0-4769-8ab5-886082fd72cb-Adult-1",
+                    "type": "Adult",
+                    "selected": false,
+                    "allow_change": true,
+                    "price": 7.0,
+                    "hover_note": null
+                  },
+                  {
+                    "pax_id": "ae03965b-e3b0-4769-8ab5-886082fd72cb-Adult-2",
+                    "type": "Adult",
+                    "selected": false,
+                    "allow_change": true,
+                    "price": 7.0,
+                    "hover_note": null
+                  },
+                  {
+                    "pax_id": "97ccbb90-ac87-4d26-8272-b342ebfe2ac7-Child-1",
+                    "type": "Child",
+                    "selected": false,
+                    "allow_change": true,
+                    "price": 5.6,
+                    "hover_note": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 37,
+            "cancellation_policy_id": 2,
+            "sort_key": 2,
+            "default_variation": false,
+            "variation_name": "Standard",
+            "variation_description": "Great value",
+            "cancellation_policy_name": "Partial Refund",
+            "cancellation_policy_description": "50% refund available up to 48 hours before departure",
+            "icon": "CheckCircle",
+            "icon_color": "red-500",
+            "behaviour_id": 28,
+            "total_price": 1180.0,
+            "price_before_addons": 1180.0,
+            "can_accept": true,
+            "passengers": [
+              {
+                "pax_id": "ae03965b-e3b0-4769-8ab5-886082fd72cb-Adult-1",
+                "pat_type_name": "Passenger",
+                "pat_sub_type_name": "Adult",
+                "pat_sub_type_plural": "Adults",
+                "count": 1,
+                "price": 200.0,
+                "descriptor": "1 x Adult",
+                "price_breakdown": ["200.0"]
+              },
+              {
+                "pax_id": "ae03965b-e3b0-4769-8ab5-886082fd72cb-Adult-2",
+                "pat_type_name": "Passenger",
+                "pat_sub_type_name": "Adult",
+                "pat_sub_type_plural": "Adults",
+                "count": 1,
+                "price": 200.0,
+                "descriptor": "1 x Adult",
+                "price_breakdown": ["200.0"]
+              },
+              {
+                "pax_id": "97ccbb90-ac87-4d26-8272-b342ebfe2ac7-Child-1",
+                "pat_type_name": "Passenger",
+                "pat_sub_type_name": "Child",
+                "pat_sub_type_plural": "Children",
+                "count": 1,
+                "price": 160.0,
+                "descriptor": "1 x Child",
+                "price_breakdown": ["160.0"]
+              },
+              {
+                "pax_id": "7bd6cedb-b4da-4f10-9f8e-2ab22890b0a2-Car-1",
+                "pat_type_name": "Vehicle",
+                "pat_sub_type_name": "Car",
+                "pat_sub_type_plural": "Cars",
+                "count": 1,
+                "price": 620.0,
+                "descriptor": "1 x Car",
+                "price_breakdown": ["620.0"]
+              }
+            ],
+            "addons": [
+              {
+                "id": 16,
+                "name": "Window Seat",
+                "icon": "square",
+                "price": 0,
+                "associated": false,
+                "included_flag": null,
+                "requirement": null,
+                "allow_expand": false,
+                "allow_change": true,
+                "visible": true,
+                "passengers": [
+                  {
+                    "pax_id": "ae03965b-e3b0-4769-8ab5-886082fd72cb-Adult-1",
+                    "type": "Adult",
+                    "selected": false,
+                    "allow_change": true,
+                    "price": 4.0,
+                    "hover_note": null
+                  },
+                  {
+                    "pax_id": "ae03965b-e3b0-4769-8ab5-886082fd72cb-Adult-2",
+                    "type": "Adult",
+                    "selected": false,
+                    "allow_change": true,
+                    "price": 4.0,
+                    "hover_note": null
+                  },
+                  {
+                    "pax_id": "97ccbb90-ac87-4d26-8272-b342ebfe2ac7-Child-1",
+                    "type": "Child",
+                    "selected": false,
+                    "allow_change": true,
+                    "price": 4.0,
+                    "hover_note": null
+                  }
+                ]
+              },
+              {
+                "id": 17,
+                "name": "Priority Disembark",
+                "icon": "square",
+                "price": 0,
+                "associated": false,
+                "included_flag": null,
+                "requirement": null,
+                "allow_expand": true,
+                "allow_change": true,
+                "visible": true,
+                "passengers": [
+                  {
+                    "pax_id": "7bd6cedb-b4da-4f10-9f8e-2ab22890b0a2-Car-1",
+                    "type": "Car",
+                    "selected": false,
+                    "allow_change": true,
+                    "price": 19.0,
+                    "hover_note": null
+                  }
+                ]
+              },
+              {
+                "id": 18,
+                "name": "RIA Admission",
+                "icon": null,
+                "price": 0,
+                "associated": false,
+                "included_flag": null,
+                "requirement": null,
+                "allow_expand": true,
+                "allow_change": true,
+                "visible": true,
+                "passengers": [
+                  {
+                    "pax_id": "ae03965b-e3b0-4769-8ab5-886082fd72cb-Adult-1",
+                    "type": "Adult",
+                    "selected": false,
+                    "allow_change": true,
+                    "price": 7.0,
+                    "hover_note": null
+                  },
+                  {
+                    "pax_id": "ae03965b-e3b0-4769-8ab5-886082fd72cb-Adult-2",
+                    "type": "Adult",
+                    "selected": false,
+                    "allow_change": true,
+                    "price": 7.0,
+                    "hover_note": null
+                  },
+                  {
+                    "pax_id": "97ccbb90-ac87-4d26-8272-b342ebfe2ac7-Child-1",
+                    "type": "Child",
+                    "selected": false,
+                    "allow_change": true,
+                    "price": 5.6,
+                    "hover_note": null
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": 38,
+            "cancellation_policy_id": 1,
+            "sort_key": 3,
+            "default_variation": false,
+            "variation_name": "Premium",
+            "variation_description": "Fully Flexible",
+            "cancellation_policy_name": "Full Refund",
+            "cancellation_policy_description": "Full refund available up to 24 hours before departure",
+            "icon": "RefreshCw",
+            "icon_color": "red-500",
+            "behaviour_id": 28,
+            "total_price": 1770.0,
+            "price_before_addons": 1770.0,
+            "can_accept": true,
+            "passengers": [
+              {
+                "pax_id": "ae03965b-e3b0-4769-8ab5-886082fd72cb-Adult-1",
+                "pat_type_name": "Passenger",
+                "pat_sub_type_name": "Adult",
+                "pat_sub_type_plural": "Adults",
+                "count": 1,
+                "price": 300.0,
+                "descriptor": "1 x Adult",
+                "price_breakdown": ["300.0"]
+              },
+              {
+                "pax_id": "ae03965b-e3b0-4769-8ab5-886082fd72cb-Adult-2",
+                "pat_type_name": "Passenger",
+                "pat_sub_type_name": "Adult",
+                "pat_sub_type_plural": "Adults",
+                "count": 1,
+                "price": 300.0,
+                "descriptor": "1 x Adult",
+                "price_breakdown": ["300.0"]
+              },
+              {
+                "pax_id": "97ccbb90-ac87-4d26-8272-b342ebfe2ac7-Child-1",
+                "pat_type_name": "Passenger",
+                "pat_sub_type_name": "Child",
+                "pat_sub_type_plural": "Children",
+                "count": 1,
+                "price": 240.0,
+                "descriptor": "1 x Child",
+                "price_breakdown": ["240.0"]
+              },
+              {
+                "pax_id": "7bd6cedb-b4da-4f10-9f8e-2ab22890b0a2-Car-1",
+                "pat_type_name": "Vehicle",
+                "pat_sub_type_name": "Car",
+                "pat_sub_type_plural": "Cars",
+                "count": 1,
+                "price": 930.0,
+                "descriptor": "1 x Car",
+                "price_breakdown": ["930.0"]
+              }
+            ],
+            "addons": [
+              {
+                "id": 16,
+                "name": "Window Seat",
+                "icon": "square",
+                "price": 0,
+                "associated": true,
+                "included_flag": true,
+                "requirement": "standard",
+                "allow_expand": false,
+                "allow_change": true,
+                "visible": true,
+                "passengers": [
+                  {
+                    "pax_id": "ae03965b-e3b0-4769-8ab5-886082fd72cb-Adult-1",
+                    "type": "Adult",
+                    "selected": true,
+                    "allow_change": true,
+                    "price": 0,
+                    "hover_note": null
+                  },
+                  {
+                    "pax_id": "ae03965b-e3b0-4769-8ab5-886082fd72cb-Adult-2",
+                    "type": "Adult",
+                    "selected": true,
+                    "allow_change": true,
+                    "price": 0,
+                    "hover_note": null
+                  },
+                  {
+                    "pax_id": "97ccbb90-ac87-4d26-8272-b342ebfe2ac7-Child-1",
+                    "type": "Child",
+                    "selected": true,
+                    "allow_change": true,
+                    "price": 0,
+                    "hover_note": null
+                  }
+                ]
+              },
+              {
+                "id": 17,
+                "name": "Priority Disembark",
+                "icon": "square",
+                "price": 0,
+                "associated": false,
+                "included_flag": null,
+                "requirement": null,
+                "allow_expand": true,
+                "allow_change": true,
+                "visible": true,
+                "passengers": [
+                  {
+                    "pax_id": "7bd6cedb-b4da-4f10-9f8e-2ab22890b0a2-Car-1",
+                    "type": "Car",
+                    "selected": false,
+                    "allow_change": true,
+                    "price": 19.0,
+                    "hover_note": null
+                  }
+                ]
+              },
+              {
+                "id": 18,
+                "name": "RIA Admission",
+                "icon": null,
+                "price": 0,
+                "associated": false,
+                "included_flag": null,
+                "requirement": null,
+                "allow_expand": true,
+                "allow_change": true,
+                "visible": true,
+                "passengers": [
+                  {
+                    "pax_id": "ae03965b-e3b0-4769-8ab5-886082fd72cb-Adult-1",
+                    "type": "Adult",
+                    "selected": false,
+                    "allow_change": true,
+                    "price": 7.0,
+                    "hover_note": null
+                  },
+                  {
+                    "pax_id": "ae03965b-e3b0-4769-8ab5-886082fd72cb-Adult-2",
+                    "type": "Adult",
+                    "selected": false,
+                    "allow_change": true,
+                    "price": 7.0,
+                    "hover_note": null
+                  },
+                  {
+                    "pax_id": "97ccbb90-ac87-4d26-8272-b342ebfe2ac7-Child-1",
+                    "type": "Child",
+                    "selected": false,
+                    "allow_change": true,
+                    "price": 5.6,
+                    "hover_note": null
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "total_cost": 590.0,
+      "lowest_option": 36,
+      "can_accept": true,
+      "resource_name": "KIFS",
+      "route_name": "Mainland to Island",
+      "departing_from": "Cape Jervis",
+      "travelling_to": "PenneshawX",
+      "departure_time": "11:01:00",
+      "arrival_time": "11:26:00",
+      "departure_date": "2026-05-02"
+    }
+  ]
+}
