@@ -104,14 +104,7 @@ function DepartureSelectionPage({ onData }) {
   };
 
   const uiConfig = {
-    continueToReturnText: "Continue to Return Journey",
-    finalContinueText: "Complete Booking",
-    backToOutboundText: "Back to Outbound",
-    backText: "Back",
-    outboundTitle: "Select Outbound Journey",
-    returnTitle: "Select Return Journey",
-    pageTitle: "Choose your journey",
-    pageSubtitle: "Select your preferred travel times",
+    ...testingContext.uiConfig,
     outboundButtonMode: testConfig.returnRequired ? 'continue' : 'complete' // Set based on whether return is required
   };
 

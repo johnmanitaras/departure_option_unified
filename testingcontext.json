@@ -1,5 +1,15 @@
 {
-      "selectedOutboundId": null,
-      "selectedReturnId": null,
-      "currentContext": "outbound"
-    }
+  "selectedOutboundId": null,
+  "selectedReturnId": null,
+  "currentContext": "outbound",
+  "uiConfig": {
+    "continueToReturnText": "Continue to Return Journey",
+    "finalContinueText": "Complete Booking",
+    "backToOutboundText": "Back to Outbound",
+    "backText": "Back",
+    "outboundTitle": "Select Outbound Journey",
+    "returnTitle": "Select Return Journey",
+    "pageTitle": "Choose your journey",
+    "pageSubtitle": "Select your preferred travel times"
+  }
+}

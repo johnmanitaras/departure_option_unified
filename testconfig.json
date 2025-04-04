@@ -1,4 +1,5 @@
 {
-      "returnRequired": true,
-      "debugModalsOn": false
-    }
+  "returnRequired": true,
+  "debugModalsOn": false,
+  "showHeader": false
+}
